@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Spread, TAN, comissão e imposto do selo</title>
+  <meta name="description" content="O que entra na prestação e o que se paga à parte, com os valores da FINE da CGD.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,520;9..144,640&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --ink: #1c1915;
+      --muted: #5c564c;
+      --paper: #f4efe6;
+      --card: #fffdf8;
+      --line: #e2d8c8;
+      --accent: #8c3a22;
+      --accent-soft: #f3e4d8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: "Source Sans 3", "Segoe UI", sans-serif;
+      font-size: 1.125rem;
+      line-height: 1.55;
+    }
+    header, main { width: min(42rem, calc(100% - 2.5rem)); margin: 0 auto; }
+    header { padding: 4.5rem 0 1.5rem; }
+    .kicker {
+      margin: 0 0 0.75rem;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--accent);
+    }
+    h1 {
+      margin: 0;
+      font-family: Fraunces, Georgia, serif;
+      font-weight: 520;
+      font-size: clamp(2.4rem, 6vw, 3.6rem);
+      line-height: 1.05;
+      letter-spacing: -0.03em;
+    }
+    .lead { margin: 1.25rem 0 0; color: var(--muted); font-size: 1.2rem; }
+    .source { margin: 0.6rem 0 0; color: var(--muted); font-size: 0.95rem; }
+    section {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 1rem;
+      padding: 1.5rem 1.4rem 1.35rem;
+      margin: 1rem 0;
+    }
+    h2 {
+      margin: 0 0 0.7rem;
+      font-family: Fraunces, Georgia, serif;
+      font-size: 1.55rem;
+      font-weight: 640;
+      letter-spacing: -0.02em;
+    }
+    p { margin: 0.7rem 0; }
+    ul { margin: 0.6rem 0 0; padding-left: 1.15rem; }
+    li { margin: 0.4rem 0; }
+    strong { font-weight: 600; }
+    .close {
+      background: var(--ink);
+      color: #f7f2ea;
+      border: 0;
+    }
+    .close h2 { color: #f3e4d8; font-size: 1.15rem; font-weight: 520; }
+    footer {
+      width: min(42rem, calc(100% - 2.5rem));
+      margin: 0 auto;
+      padding: 0.5rem 0 3rem;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <p class="kicker">Crédito habitação · CGD</p>
+    <h1>Spread, TAN, comissão e imposto do selo</h1>
+    <p class="lead">São quatro coisas diferentes. Três entram na prestação todos os meses. A comissão e o imposto do selo são pagamentos à parte, em momentos concretos.</p>
+    <p class="source">Os valores são os da FINE da CGD (crédito de 200.000 €, setembro de 2025).</p>
+  </header>
+  <main>
+    <section>
+      <h2>TAN: a taxa que o banco cobra pelo dinheiro</h2>
+      <p>A TAN é a taxa anual nominal. É a percentagem que incide sobre o capital que ainda deve.</p>
+      <p>No contrato há dois momentos:</p>
+      <ul>
+        <li>Nos primeiros 2 anos a TAN é <strong>2,650%</strong>, fechada. Não mexe.</li>
+        <li>Depois passa a ser a soma de duas peças: a Euribor a 6 meses e o spread.</li>
+      </ul>
+      <p>Com os números da FINE, a Euribor estava em 2,084% e o spread em 0,75%. A TAN dessa fase fica <strong>2,834%</strong>.</p>
+      <p>A prestação de cerca de <strong>869 €</strong> já inclui esta conta: uma parte abate a dívida e a outra é o juro calculado com a TAN. A TAN não é uma conta extra que chega pelo correio.</p>
+    </section>
+    <section>
+      <h2>Spread: a margem do banco</h2>
+      <p>A Euribor é o preço do dinheiro entre bancos. O spread é o que a CGD acrescenta para lhe emprestar a si.</p>
+      <p>Na FINE o spread de base é <strong>1%</strong>. Com o pack (conta, cartões e ordenado domiciliado) desce para <strong>0,75%</strong>. Se deixar cair esse pack, o banco pode voltar a pôr <strong>1%</strong>.</p>
+      <p>O spread só entra na prestação quando a taxa deixa de ser fixa. Durante os 2 anos a 2,650% ele está fora da conta. No dia em que a taxa fica variável, cada 0,25 pontos a mais no spread sobe a TAN, e a prestação sobe com ela.</p>
+    </section>
+    <section>
+      <h2>Comissão: o preço de um serviço</h2>
+      <p>A comissão não é juro. É um valor que o banco cobra por um ato.</p>
+      <p>No processo aparecem duas:</p>
+      <ul>
+        <li><strong>Formalização do contrato:</strong> 195 €, pagos uma vez no início.</li>
+        <li><strong>Reembolso antecipado:</strong> a comissão de quem paga capital antes do tempo. Na taxa fixa é <strong>2%</strong> do valor que entregar. Na taxa variável é <strong>0,5%</strong>. Entregar 10.000 € já na fase variável custa <strong>50 €</strong> de comissão.</li>
+      </ul>
+      <p>Essa comissão não está dentro dos 869 €. Paga-se no momento do ato.</p>
+    </section>
+    <section>
+      <h2>Imposto do selo: o imposto em cima da comissão e do crédito</h2>
+      <p>O Estado leva uma percentagem de algumas operações. No contrato entra assim:</p>
+      <ul>
+        <li>Sobre o crédito usado no início: <strong>1.200 €</strong> (0,6% de 200.000 €), pagos uma vez.</li>
+        <li>Sobre as comissões: <strong>4%</strong> do valor da comissão. Os 195 € passam a <strong>202,80 €</strong>. Os 50 € de uma amortização de 10.000 € passam a <strong>52 €</strong>.</li>
+      </ul>
+      <p>O juro mensal da prestação não leva este imposto. O imposto do selo aparece na abertura do crédito e, outra vez, sempre que houver uma comissão.</p>
+    </section>
+    <section class="close">
+      <h2>Numa frase</h2>
+      <p>A prestação mensal é capital mais juros. Os juros saem da TAN. A TAN fixa é um número fechado. A TAN variável é Euribor mais spread. A comissão e o imposto do selo são pagamentos à parte, no início do contrato e no dia em que amortizar ou mudar de banco.</p>
+    </section>
+  </main>
+  <footer>Texto baseado em spread-tan-comissao-imposto-selo.md.</footer>
+</body>
+</html>
